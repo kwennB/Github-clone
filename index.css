@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  margin-top: 5rem;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 40%;
+  padding: 0;
+  /*   display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.text {
+  font-weight: 100;
+  color: rgb(110, 110, 202);
+  padding: 1rem 3rem;
+}
+
+.main-box {
+  height: 15rem;
+  background-color: rgb(243, 249, 250);
+  padding: 1rem;
+}
+
+.input {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: none;
+  outline: blue;
+}
+input:hover {
+  border: 2px solid blue;
+}
+.line label{
+  margin: 0;
+}
+.line1 {
+    float: right;
+  }
+
+.button {
+  margin-top: 1.5rem;
+  width: 20rem;
+  height: 2rem;
+  border-radius: 10px;
+  background: rgb(37, 165, 37);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: rgb(248, 247, 246);
+}
+#sign-in:hover{
+  background-color: rgb(3, 117, 3);
+}
+.box {
+  margin-top: 1.5rem;
+  height: 4rem;
+  width: 22rem;
+  border: 2px solid silver;
+  border-radius: 5px;
+}
+h4 {
+  margin-top: 1rem;
+  padding: 0 2rem;
+  font: 100;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+
+footer {
+  margin-top: 3rem;
+  padding: 0 1rem;
+  word-spacing: 1rem;
+}
+
+
+/* Loaded github page */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    background-color: rgb(51, 48, 48);
+}
+
+.profile{
+    padding: 2rem;
+}
+
+.profile img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.edit-btn{
+    margin-top: 1.5rem;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+    background: gray;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: rgb(248, 247, 246);
+}
+.display-name{
+    color: #ffffff;
+    font-weight: 100;
+}
+.user{
+    color: rgb(192, 192, 192);;
+}
+
+.location{
+    margin-top: 1rem;
+    color: rgb(192, 192, 192);;
+}
+.location p{
+padding: 0 .5rem;
+}
+
+.repository {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.repo{
+  padding: 2rem;
+}
+
+h3 a{
+    color: #ffffff;
+}
+
+.boxes{
+    height: 10rem;
+    border-style: solid none solid none;
+    border-width: 1px;
+    border-color:  rgb(89, 86, 86);
+    margin: 0 2rem;
+}
+
+h3{
+    color: blue;
+    padding: .5rem 0;
+}
+
+.p p{
+    display: inline;
+    padding: 0 .5rem 0 0;
+    font-size: .8rem;
+    color: rgb(192, 192, 192);;
+}
+
+.star{
+    float: right;
+    padding: 1rem;
+}
+.star button{
+    width: 4rem;
+    height: 2rem;
+    color: rgb(192, 192, 192);
+    background: gray;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+@media screen and (max-width: 17rem) {
+    .grid-container{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 25rem) {
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 45rem) {
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 64rem) {
+    .grid-container{
+        grid-template-columns: 1fr;
+        font-size: 1.2rem;
+    }
+    
+}
+
+
+/* validation styles*/
+.invalid{
+  width : 100%;
+  background-color:rgb(238, 115, 139);
+  border: 1px solid rgb(139, 65, 80);
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+}
+.cancel{
+  text-decoration: none;
+  color: rgb(139, 65, 80);
+  float: right;
+}
